@@ -10,7 +10,7 @@ A high-performance, interactive 2D physics simulation environment written in nat
 
 ## 📺 Project Demo
 
-![Simulator Demo](https://via.placeholder.com/1280x720.png?text=Add+a+cool+simulation+GIF+here!)
+![Simulator Demo](assets/demo.gif)
 
 ---
 
