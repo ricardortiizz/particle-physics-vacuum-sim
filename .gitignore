@@ -1,0 +1,18 @@
+# Architecture directories (Compiled binaries and objects)
+obj/
+bin/
+
+# Compiled files
+*.o
+*.out
+particle_sim
+
+# IDEs and Text Editors configuration
+.vscode/
+.idea/
+*.swp
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
