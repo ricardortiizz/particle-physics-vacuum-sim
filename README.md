@@ -1,4 +1,4 @@
-# 2D Particle Physics & Autonomous Vacuum Simulator 🤖✨
+# 2D Particle Physics & Autonomous Vacuum Simulator
 
 [![Language](https://img.shields.io/badge/Language-C++11-blue.svg)](https://en.wikipedia.org/wiki/C%2B%2B11)
 [![Library](https://img.shields.io/badge/Graphics-Raylib-red.svg)](https://www.raylib.com/)
@@ -8,13 +8,13 @@ A high-performance, interactive 2D physics simulation environment written in nat
 
 ---
 
-## 📺 Project Demo
+## Project Demo
 
 ![Simulator Demo](assets/demo.gif)
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 * **Low-Level Memory Management:** Implements an optimized dynamic array container (`ParticleSet`) using raw pointers (`new[]`/`delete[]`), sequential block allocation (`BLOCK_SIZE = 3`), and strict enforcement of the **Rule of Three** (Deep Copying, Destructuring, and Assignment Safety).
 * **Kinematic & Physics Engine:** Features a fully-fledged 2D vector mathematics implementation managing displacement, velocity damping, and acceleration vectors.
@@ -23,7 +23,7 @@ A high-performance, interactive 2D physics simulation environment written in nat
 
 ---
 
-## 🛠️ Architecture & Project Structure
+## Architecture & Project Structure
 
 The project follows a standard professional C++ directory layout separating interfaces, implementations, objects, and compiled binaries:
 
@@ -50,7 +50,7 @@ The project follows a standard professional C++ directory layout separating inte
 
 ---
 
-## ⚙️ Compilation & Getting Started
+## Compilation & Getting Started
 
 ### Prerequisites
 
@@ -88,7 +88,7 @@ Execute the binary from the root directory passing the **vacuum radius** and the
 
 ---
 
-## 🎮 Interactive Controls
+## Interactive Controls
 
 Once the window initializes, you can actively interact with the physics sandbox:
 
@@ -98,7 +98,7 @@ Once the window initializes, you can actively interact with the physics sandbox:
 
 ---
 
-## 📊 Technical Highlights
+## Technical Highlights
 
 ### Explicit Deep Copying & Assignment Safety
 To prevent pointer aliasing and segmentation faults during particle clustering, the assignment operator executes safe resource releasing and deep data duplication:
